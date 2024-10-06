@@ -98,7 +98,7 @@ function App() {
             <button 
               onClick={handleAdd} 
               disabled={todo.length < 1} 
-              className='bg-purple-600 text-white hover:bg-purple-800 p-1 m-1 rounded-md ml-3 w-14 h-[38px] font-bold hover:scale-105 cursor-pointer'>
+              className='bg-purple-600 text-white hover:bg-purple-800 p-1 m-1 rounded-md ml-3 w-16 h-[38px] font-bold hover:scale-105 cursor-pointer'>
               {editId ? 'Update' : 'Save'}
             </button>
           </div>
